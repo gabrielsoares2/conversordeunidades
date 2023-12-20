@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Conversor de unidades</title>
+	<link rel="stylesheet" href="conversor.css">
+
+</head>
+<body>
+
+	<div id='tudo'>
+		
+		<h1>Conversor</h1>
+
+		Converter:
+
+		<select name="Unidades" id='unidades1'>
+			<option value="Km">Quilometros</option>
+			<option value="Metros">Metros</option>
+		</select>
+
+		Para:
+
+		<select name="Unidades2" id='unidades2'>
+			<option value="Km">Quilometros</option>
+			<option value="Metros">Metros</option>
+		</select>
+
+		<input id='valor1' type="number" placeholder="Coloque o valor">
+
+		<input type="button" onclick='Converter()' value='Verificar'>
+
+		<div id='res'>Resultado</div>
+
+	</div>
+
+	<script src="conversor.js"></script>
+</body>
+</html>
